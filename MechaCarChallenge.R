@@ -18,18 +18,6 @@ SusCoil <- read.csv(file = 'Suspension_Coil.csv', check.names = F, stringsAsFact
 
 #Write an RScript that creates a total_summary dataframe using the summarize() function to get the mean, median, variance, and standard deviation of the suspension coil's PSI column.(15.2.5)
 total_summary <- SusCoil %>% summarize("Mean"=mean(PSI),"Median"=median(PSI), "Variance"=var(PSI), "SD"=sd(PSI), .groups = 'keep')
-#total_summary <- data.frame("mean" = summarize(SusCoil, mean(PSI)), "median" = summarize(SusCoil, median(PSI)), "variance"= summarize(SusCoil, var(PSI)), "standard deviation" = summarize(SusCoil, sd(PSI)), .groups = 'keep')
-
-#summarize(SusCoil, var(PSI))
-#total_summary <- data.frame("mean" = summarize(SusCoil, mean(PSI)), "median" = summarize(SusCoil, median(PSI)), "variance"= summarize(SusCoil, var(PSI)), "standard deviation" = summarize(SusCoil, sd(PSI)))
-#total_summary %>% 
-  #rename(
-    #mean.PSI = Mean,
-    #median.PSI = Median,
-    #var.PSI = Variance,
-    #sd.PSI = SD
-  #)
-#head(total_summary)
 
 #Write an RScript that creates a lot_summary dataframe using the group_by() and the summarize() functions to group each manufacturing lot by the mean, median, variance, and standard deviation of the suspension coil's PSI column.(15.2.5)
 lot_summary <- SusCoil %>%group_by(Manufacturing_Lot)%>% summarize("Mean"=mean(PSI),"Median"=median(PSI), "Variance"=var(PSI), "SD"=sd(PSI), .groups = 'keep')
