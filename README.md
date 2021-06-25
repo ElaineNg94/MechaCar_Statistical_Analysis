@@ -16,13 +16,16 @@ The linear model DOES/DOES NOT predict the mpg of the MechaCar prototype effecti
 
 
 ## Summary Statistics on Suspension Coils
-<img width="459" alt="lot_summary" src="https://user-images.githubusercontent.com/79742633/123391750-2da83e00-d551-11eb-99b2-22c4af2ec087.png">
-
-When looking at the lot_summary table shown above, lot 1 and lot 2 would meet the current design specification. Lot 1 has a variance of 0.9795918 and lot 2 has a variance of 7.4693878, which means these two lots would meet the design specification because the variance does not exceed 100 pounds per square inch. Lot 3 has a variance of 170.2861224 so it would not meet the design specification since it exceeds 100 pounds. The "total_summary" table is shown below.
 
 **total_summary:**
 
 <img width="321" alt="total_summary" src="https://user-images.githubusercontent.com/79742633/123391798-3862d300-d551-11eb-9c4e-8d9311f19ddc.png">
+
+**lot_summary:**
+
+<img width="459" alt="lot_summary" src="https://user-images.githubusercontent.com/79742633/123391750-2da83e00-d551-11eb-99b2-22c4af2ec087.png">
+
+When looking at the these tables shown above, lot 1 and lot 2 would meet the current design specification. Lot 1 has a variance of 0.9795918 and lot 2 has a variance of 7.4693878, which means these two lots would meet the design specification because the variance does not exceed 100 pounds per square inch. Lot 3 has a variance of 170.2861224 so it would not meet the design specification since it exceeds 100 pounds.
 
 ## T-Tests on Suspension Coils
 ### t.test() to determine if the PSI for each manufacturing lot
