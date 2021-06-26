@@ -8,7 +8,7 @@ After using the lm() function we can see that vehicle_length and ground_clearanc
 
 **_Is the slope of the linear model considered to be zero? Why or why not?_**
 
-The slope of the linear model is NOT considered to be zero because the p-value we got was 5.35e-11, which means it’s smaller than 0.05. Since the p-value is less than 0.05, that means the probability of it meeting the null hypothesis is false so it would reject our null hypothesis.
+The slope of the linear model is not considered to be zero because the p-value we got was 5.35e-11, which means it’s smaller than 0.05. Since the p-value is less than 0.05, that means the probability of it meeting the null hypothesis is false so it would reject our null hypothesis.
 
 **_Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?_**
 
