@@ -30,7 +30,7 @@ The linear model does predict the mpg of the MechaCar prototype effectively. It 
 Looking at the tables above and at the total_summary table, we can see that the variance is 62.29356 for all suspension coils combined. When looking at the lot_summary table, lot 1 and lot 2 would meet the current design specification. Lot 1 has a variance of 0.9795918 and lot 2 has a variance of 7.4693878, which means these two lots would meet the design specification because the variance does not exceed 100 pounds per square inch. Lot 3 has a variance of 170.2861224 so it would not meet the design specification since it exceeds 100 pounds.
 
 ## T-Tests on Suspension Coils
-### t.test() across all manufacturing lots
+### t.test() to determine if PSI is statistically different from the population mean of 1,500 pounds/square inch
 
 <img width="458" alt="t test()" src="https://user-images.githubusercontent.com/79742633/123391796-3862d300-d551-11eb-9a3f-b82dbffc314f.png">
 
