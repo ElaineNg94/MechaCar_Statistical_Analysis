@@ -58,7 +58,7 @@ Looking at the tables above and at the total_summary table, we can see that the 
 ## Study Design: MechaCar vs Competition
 **_What metric or metrics are you going to test?_**
 
-I am going to test the maintenance cost metric. This metric can be tested because we have some data for MechaCar and would just need the same data for the competitor’s car.
+I am going to test the maintenance cost metric. This metric can be tested because we have some data for MechaCar, so we would just need the same data for the competitor’s car.
 
 **_What is the null hypothesis or alternative hypothesis?_**
 
@@ -66,8 +66,8 @@ The null hypothesis is that the maintenance cost can be affected depending on th
 
 **_What statistical test would you use to test the hypothesis? And why?_**
 
-I would use a t.test to test this hypothesis because it can help me compare data the of the different cars, similar to what we did in this analysis in deliverable 3 with the manufacturing_lot and lot_summary tables…
+I would use a t.test to test this hypothesis because it can help compare data the of the different cars, which is similar to the t.test we did in deliverable 3. A t.test could help us to compare each individual car to the overall average numbers. I would also make a line plot using ggplot2 to help visualize the data better and to show the relationship between variables better.
 
 **_What data is needed to run the statistical test?_**
 
-We would need data from the competitor’s cars…
+We would need data from the competitor’s cars and also data to know what they usually use the car for. It would be helpful to know the data about the competitor’s car because then we can have a specific car to compare it to. It would also be good to have data to know what they usually use the car for because it can be like a stress test. Some car types can’t handle too many difficult activities compared to cars that are meant for more difficult terrain so this would be important to know too.
