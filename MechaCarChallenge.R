@@ -36,8 +36,16 @@ lot_summary <- SusCoil %>%group_by(Manufacturing_Lot)%>% summarize("Mean"=mean(P
 #Deliverable 3
 #Write an RScript using the t.test() function to determine if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch.
 t.test(SusCoil$PSI,mu=1500)
+#SusCoil$Manufacturing_Lot
 
 #Write three more RScripts in your MechaCarChallenge.RScript using the t.test() function and its subset() argument to determine if the PSI for each manufacturing lot is statistically different from the population mean of 1,500 pounds per square inch.(15.3.4)
 t.test(subset(SusCoil, Manufacturing_Lot == "Lot1")$PSI, mu = 1500)
 t.test(subset(SusCoil, Manufacturing_Lot == "Lot2")$PSI, mu = 1500)
 t.test(subset(SusCoil, Manufacturing_Lot == "Lot3")$PSI, mu = 1500)
+
+#Notes: 15.3.4
+#mpg_summary <- subset(mpg,manufacturer=="toyota") %>% group_by(cyl) %>% summarize(Mean_Hwy=mean(hwy), .groups = 'keep') #create summary table
+t.test(subset(SusCoil$PSI, SusCoil$Manufacturing_Lot == "Lot 1"), mu=1500)
+       #%>% group_by(cyl) %>% summarize(Mean_Hwy=mean(hwy), .groups = 'keep')
+#^t.test FUNCTION, subset ARGUMENT to determine SusCoil PSI for each SusCoil manufacturing_lot, mean 1500
+#^ $ refers where to grab in the file
