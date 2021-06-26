@@ -49,11 +49,11 @@ Looking at the tables above and at the total_summary table, we can see that the 
 
 **_Briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary._**
 
-Lot 1:
+Lot 1: has a p-value of 1, which means it’s above our p-value significance level of 0.05. Since the p-value is above 0.05, that means we can’t reject the null hypothesis about having a significant difference between the sample and the population mean of 1500.
 
-Lot 2:
+Lot 2: has a p-value of 0.6072, which means it’s above our p-value significance level of 0.05. Since the p-value is above 0.05, that means we can’t reject the null hypothesis about having a significant difference between the sample and the population mean of 1500.
 
-Lot 3:
+Lot 3: has a p-value of 0.04168, which means it’s below the p-value significance level of 0.05. Since the p-value for lot 3 is below 0.05, that means we would reject the null hypothesis and say that there is a statistically significant difference between the sample and population mean.
 
 ## Study Design: MechaCar vs Competition
 **_What metric or metrics are you going to test?_**
