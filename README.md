@@ -66,7 +66,7 @@ The null hypothesis is that the maintenance cost can be affected depending on th
 
 **_What statistical test would you use to test the hypothesis? And why?_**
 
-I would use a t.test to test this hypothesis because it can help compare data the of the different cars, which is similar to the t.test we did in deliverable 3. A t.test could help us to compare each individual car to the overall average numbers. I would also make a line plot using ggplot2 to help visualize the data better and to show the relationship between variables better.
+I would use a t.test to test this hypothesis because it can help compare data the of the different cars, which is similar to the t.test we did in deliverable 3. A t.test could help us to compare each individual car to the overall average numbers. I would also make a line plot using ggplot2 to help visualize the data better and to show the relationship between the variables better.
 
 **_What data is needed to run the statistical test?_**
 
