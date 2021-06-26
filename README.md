@@ -4,7 +4,7 @@
 
 **_Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?_**
 
-After using the lm() function which was used to find the linear regression…
+After using the lm() function we can see that vehicle_length and ground_clearance are significant by looking at the p-values. The p-value of vehicle_length is 2.60e-12 and the p-value of ground_clearance is 5.21e-08. This shows these two variables would provide a non-random amount of variance to the mpg values since the rest of the variables in this dataset’s p-values are close to zero.
 
 **_Is the slope of the linear model considered to be zero? Why or why not?_**
 
@@ -12,10 +12,14 @@ The slope of the linear model is NOT considered to be zero because the p-value w
 
 **_Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?_**
 
-The linear model DOES/DOES NOT predict the mpg of the MechaCar prototype effectively. It does/doesn’t predict the protypes effectively because…
+The linear model does predict the mpg of the MechaCar prototype effectively. It predicts the protypes effectively because we can see that it has a multiple R-squared value of 0.7149, which is 71% so this can show it can be used to predict the mpg effectively.
 
 
 ## Summary Statistics on Suspension Coils
+
+**_The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?_**
+
+Looking at the total_summary table, we can see that the variance is 62.29356 for all suspension coils combined. When looking at the lot_summary table, lot 1 and lot 2 would meet the current design specification. Lot 1 has a variance of 0.9795918 and lot 2 has a variance of 7.4693878, which means these two lots would meet the design specification because the variance does not exceed 100 pounds per square inch. Lot 3 has a variance of 170.2861224 so it would not meet the design specification since it exceeds 100 pounds.
 
 **total_summary:**
 
