@@ -17,10 +17,6 @@ The linear model does predict the mpg of the MechaCar prototype effectively. It 
 
 ## Summary Statistics on Suspension Coils
 
-**_The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?_**
-
-Looking at the total_summary table, we can see that the variance is 62.29356 for all suspension coils combined. When looking at the lot_summary table, lot 1 and lot 2 would meet the current design specification. Lot 1 has a variance of 0.9795918 and lot 2 has a variance of 7.4693878, which means these two lots would meet the design specification because the variance does not exceed 100 pounds per square inch. Lot 3 has a variance of 170.2861224 so it would not meet the design specification since it exceeds 100 pounds.
-
 **total_summary:**
 
 <img width="321" alt="total_summary" src="https://user-images.githubusercontent.com/79742633/123391798-3862d300-d551-11eb-9c4e-8d9311f19ddc.png">
@@ -29,7 +25,9 @@ Looking at the total_summary table, we can see that the variance is 62.29356 for
 
 <img width="459" alt="lot_summary" src="https://user-images.githubusercontent.com/79742633/123391750-2da83e00-d551-11eb-99b2-22c4af2ec087.png">
 
-When looking at the these tables shown above, lot 1 and lot 2 would meet the current design specification. Lot 1 has a variance of 0.9795918 and lot 2 has a variance of 7.4693878, which means these two lots would meet the design specification because the variance does not exceed 100 pounds per square inch. Lot 3 has a variance of 170.2861224 so it would not meet the design specification since it exceeds 100 pounds.
+**_The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?_**
+
+Looking at the tables above and at the total_summary table, we can see that the variance is 62.29356 for all suspension coils combined. When looking at the lot_summary table, lot 1 and lot 2 would meet the current design specification. Lot 1 has a variance of 0.9795918 and lot 2 has a variance of 7.4693878, which means these two lots would meet the design specification because the variance does not exceed 100 pounds per square inch. Lot 3 has a variance of 170.2861224 so it would not meet the design specification since it exceeds 100 pounds.
 
 ## T-Tests on Suspension Coils
 ### t.test() to determine if the PSI for each manufacturing lot
@@ -47,6 +45,14 @@ When looking at the these tables shown above, lot 1 and lot 2 would meet the cur
 ### Lot 3
 
 <img width="572" alt="lot_3" src="https://user-images.githubusercontent.com/79742633/123391747-2d0fa780-d551-11eb-95b6-a6b512ecbb9c.png">
+
+**_Briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary._**
+
+Lot 1:
+
+Lot 2:
+
+Lot 3:
 
 ## Study Design: MechaCar vs Competition
 **_What metric or metrics are you going to test?_**
